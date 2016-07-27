@@ -1,0 +1,59 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+/*Inicio modificaciones html*/
+/*body{font-family: 'Roboto' !important;}*/
+label{ font-weight: 400; }
+select{font-size:12px; border-radius:0px;}
+body{ color: #545454; font-size: 12px;}
+h3{margin: 0px; margin-bottom: 10px; margin-left: 0px !important;}
+textarea{border-radius: 0px !important; font-size: 11px !important;}
+/*Fin modificaciones html*/
+/*Inicio modificaciones Bootstrap*/
+.btn{ border-radius: 0px; font-size: 11px; background-color: #FAFAFA; border: 1px solid #cccccc; padding: 5px; padding-left: 10px; padding-right: 10px;  padding-bottom: 3px;}
+.alinear-derecha{position: relative; float: right;}
+@media (min-width: 768px){
+	.container { width: 98%;}
+}
+.form-control{font-size:12px; padding:4px 6px;}
+/*Fin modificaciones Bootstrap*/
+/*Inicio header*/
+.navbar { border-color: #343434; margin-bottom: 0px; background: #545454;}
+.navbar-brand{color: #ffffff;}
+.navbar-brand:hover{color: #FDFDFD;}
+.navbar-nav > li > a {color: #ffffff; }
+.nav>li>a:focus, .nav>li>a:hover {background-color: #eee; color: #343434;}
+/*Fin header*/
+/*Inicio footer*/
+.footer { bottom: 0; width: 100%; border-top: 1px solid #cccccc; margin-top: 20px; background: #FDFDFD; color: #aaaaaa;}
+.footer > .container { margin-top: 10px; }
+/*Fin footer*/
+/*Inicio Estilos*/
+.icono-cerrar-sesion{font-size: 16px; margin-left: 10px; margin-top: 3px;}
+.box{margin-top: 10px; border: 1px solid #cccccc; padding: 10px; background: #FDFDFD;}
+.box > p > i {margin-right: 10px; }
+.box > ul { margin-left: -10px;}
+#container{padding-left: 0px;}
+#container-app{margin-top: 10px; margin-bottom: 35px;}
+#menu-izq-app{}
+#txtMensajeRpta{ position: relative; float: right; margin-top: 11px; }
+.oculto{display: none;}
+.rojo, .color-error{color: #a94442;}
+.naranja, .color-warning{color: #8a6d3b;}
+.verde, .color-success{color: #3c763d;}
+.titulo{font-size: 16px; font-weight: 500; margin-top: 5px; margin-bottom: 5px;}
+.subtitulo { font-size: 14px; margin-left: 14px;  position: relative; float: left; }
+.subtitulo-tabla { font-size: 14px; margin-left: 14px; }
+.form-control{height: 25px;}
+input[type="text"] { border-radius: 0px; color: #545454; font-size: 12px; }
+@media (min-width: 768px) { 
+	.navbar-nav>li>a { padding-top: 5px; padding-bottom: 5px; }
+	.navbar-brand { padding: 4px 12px; height: auto; padding-top: 5px; }
+	.navbar { min-height: auto; margin-bottom: 5px;}
+	.footer{position: fixed;}
+}
+/*Inicio Checkbox*/
+input[type="checkbox"]:checked + label {}
+input[type="checkbox"] {display:none;}
+input[type="checkbox"] + label span { display:inline-block; width:12px; height:12px; margin:-1px 4px 0 0; vertical-align:middle; background:url(../img/check_radio_sheet.png) left top no-repeat; cursor:pointer;}
+input[type="checkbox"]:checked + label span { background:url(../img/check_radio_sheet.png) -14px top no-repeat; }
+/*Fin Checkbox*/
+/*Fin Estilos*/
